@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <!-- Link your CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navi">
+        <!-- Your navigation bar content -->
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Other sections of your webpage -->
+    <section id="home">
+        <h1>Home Section</h1>
+        <!-- Your content -->
+    </section>
+
+    <section id="about">
+        <h1>About Section</h1>
+        <!-- Your content -->
+    </section>
+
+    <section id="services">
+        <h1>Services Section</h1>
+        <!-- Your content -->
+    </section>
+
+    <section id="contact">
+        <h1>Contact Section</h1>
+        <!-- Your content -->
+    </section>
+
+</body>
+
+<style>
+    body {
+    font-family: Arial, sans-serif; /* Example: Set your preferred font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.navi {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Example: Set your preferred background color */
+    color: #fff; /* Example: Set your preferred text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    z-index: 1000; /* Ensure navigation bar is above other content */
+}
+
+.navi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center align your navigation items */
+}
+
+.navi ul li {
+    display: inline; /* Display list items inline */
+    margin: 0 10px; /* Adjust spacing between list items */
+}
+
+.navi ul li a {
+    text-decoration: none;
+    color: #fff; /* Example: Set your preferred link color */
+    font-size: 18px; /* Example: Set your preferred font size */
+    padding: 10px; /* Adjust padding around links */
+}
+
+.navi ul li a:hover {
+    background-color: #555; /* Example: Set hover background color */
+}
+
+/* Adjust other sections' padding to account for fixed navigation */
+section {
+    padding-top: 60px; /* Adjust according to your navigation bar height */
+    /* Example: If navigation bar height is 60px, then set padding-top accordingly */
+}
+
+</style>
+</html>
